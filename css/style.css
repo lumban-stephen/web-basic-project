@@ -194,3 +194,43 @@ hr {
     margin: 30px;
     width: 60%;
 }
+
+.short-section {
+    height: 80vh;
+    background-color: #131316;
+    color: #F5F5F5;
+    display: flex;
+    flex-direction: column;
+    padding: 0 5rem;
+}
+
+.short-section .title {
+    font-size: 48px;
+    float: left;
+    max-width: 55%;
+}
+
+.cards {
+    display: flex;
+    margin-top: 60px;
+}
+
+.card {
+    background-color: #FAFAFA;
+    color: #131316;
+    width: 405px;
+    max-height: 452px;
+    height: fit-content;
+    margin: 0 2rem;
+    padding: 30px;
+    border-radius: 16px;
+}
+
+.card .card-name {
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+.card .card-company {
+    font-style: italic;
+}
