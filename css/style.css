@@ -10,7 +10,6 @@ body {
 }
 
 .section {
-    display: flex;
     align-items: normal;
     max-width: 100%;
 }
@@ -34,6 +33,10 @@ ul li a{
     transition: 0.5s;
     font-weight: bold;
     font-size: 16;
+}
+
+.navbar {
+    max-width: 92%;
 }
 
 .navbar a:hover {
@@ -67,4 +70,99 @@ ul {
 
 #loginBtn:hover {
     background-color: #fff;
+}
+
+.section-content-1 {
+    width: 90%;
+    height: 80vh;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.xl-headline {
+    font-size: 64px;
+    float: left;
+    width: 60%;
+    margin-top: 45px;
+}
+
+.subheadline {
+    font-size: 20px;
+    width: 40%;
+    max-width: 40;
+    margin-top: 30px;
+}
+
+.blue-btn {
+    background-color: #4891FF;
+    border-radius: 16px;
+    padding: 16px 32px;
+    list-style-type: none;
+    text-decoration: none;
+    color: #F5F5F5;
+    transition: 0.5s;
+    margin-right: 20px;
+    max-height: 59px;
+    max-width: 166px;
+    margin-top: 20px;
+}
+
+.blue-btn:hover {
+    background-color: #F5F5F5;
+    border-radius: 16px;
+    padding: 16px 32px;
+    list-style-type: none;
+    text-decoration: none;
+    color: #4891FF;
+}
+
+.gray-btn {
+    background-color: #F5F5F5;
+    border-radius: 16px;
+    padding: 16px 32px;
+    list-style-type: none;
+    text-decoration: none;
+    color: #4891FF;
+    transition: 0.5s;
+    margin-right: 20px;
+    max-height: 59px;
+    max-width: 212px;
+    margin-top: 20px;
+    line-clamp: 1;
+}
+
+.gray-btn:hover {
+    background-color: #4891FF;
+    border-radius: 16px;
+    padding: 16px 32px;
+    list-style-type: none;
+    text-decoration: none;
+    color: #F5F5F5;
+}
+
+.buttons {
+    display: flex;
+    max-width: 30%;
+    justify-content: space-between;
+}
+
+#graph {
+    width: 465px;
+    height: 413px;
+    margin-left: -60px;
+}
+
+#capodera {
+    width: 612px;
+    height: 272px;
+}
+
+#call {
+    width: 190px;
+    height: 480px;
+}
+
+.three-images img {
+    margin: -100px 10px;
 }
