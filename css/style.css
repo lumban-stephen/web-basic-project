@@ -78,6 +78,8 @@ ul {
     margin: auto;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .xl-headline {
@@ -164,7 +166,7 @@ ul {
 }
 
 .three-images img {
-    margin: -100px 10px;
+    margin: 0 10px;
 }
 
 .get-started {
@@ -233,4 +235,5 @@ hr {
 
 .card .card-company {
     font-style: italic;
+    font-size: 14px;
 }
